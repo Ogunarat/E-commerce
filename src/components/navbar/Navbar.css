@@ -1,0 +1,32 @@
+.list-menu{
+    display: none;
+}
+
+/* responsive*/
+@media only screen and (max-width: 427px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .navbar-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .list-menu{
+        display: flex;
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 320px){
+    
+    .navbar-title{
+        font-size: 35px;
+    }
+
+    .navbar input{
+        width: 100px;
+    }
+} 
